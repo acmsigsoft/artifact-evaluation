@@ -15,6 +15,13 @@ The following instructions are typically provided to all authors of artifacts at
 	* A  clear listing of claims that are described in the paper, along with an explanation of how each of those claims is supported by the artifact
 	* Step-by-step instructions to execute the artifact
 	* Instructions for reviewers to “play” with the artifact, allowing reviewers to construct new input data to test the artifact's robustness
+* Artifacts must be licensed. Each artifact should have a LICENSE file containing:
+    * How the artifact can be accessed and reviewed
+    * How the artifact can be used by researchers for reproduction
+    * How the artifact can be reused by people in academia or industry
+    * It is not a SIGPLAN requirement that artifacts must be open source,
+      but the license must specify to which extend the artifact can be (re)used
+    * It is recommended to use standard licenses, see https://spdx.org/licenses/
 * Artifacts must be fully self-contained
 	* Ideally, software artifacts will be contained within a VM, which contains all of the artifact’s dependencies, reducing the likelihood that the artifact decays over time.
 	* Take caution with using docker images: Typically the goal with a docker container is to distribute a base container and then a script to install dependencies in that container. While this reduces the size of the artifact, it increases reliance on external systems, and hence, the artifact may stop working eventually. When using a docker container, be sure that what you distribute is fully self-contained.

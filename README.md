@@ -19,7 +19,7 @@ The following instructions are typically provided to all authors of artifacts at
     * How the artifact can be accessed and reviewed
     * How the artifact can be used by researchers for reproduction
     * How the artifact can be reused by people in academia or industry
-    * It is not a SIGPLAN requirement that artifacts must be open source,
+    * It is not a SIGSOFT requirement that artifacts must be open source,
       but the license must specify to which extend the artifact can be (re)used
     * It is recommended to use standard licenses, see https://spdx.org/licenses/
 * Artifacts must be fully self-contained

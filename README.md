@@ -28,8 +28,8 @@ The following instructions are typically provided to all authors of artifacts at
 	* Non-software artifacts (e.g. datasets) should be distributed as a single archive (no need for a VM)
 * Artifacts must be identifiable, immutable, and long-term avalilable [https://doi.org/10.5281/zenodo.7296608].
     * DOIs are the industry standard to identify literature.  Artifacts can be published (and referenced) in the ACM DL only using DOIs.
-    * Artifacts must not be stored in software repositories, user home pages, or user storage, which can be deleted or changed at any time at the user's disposition.
-    * Digital libraries (Zenodo, FigShare, ACM DL) are the most reliable archives for artifacts [https://doi.org/10.1145/3540250.3549172].
+    * Artifacts must not be referred to in software repositories, user home pages, or user storage, which can be deleted or changed at any time at the user's disposition.
+    * Digital libraries (Zenodo, FigShare, ACM DL) are among the most reliable archives for artifacts [https://doi.org/10.1145/3540250.3549172].
 
 
 ## <a name="discussion-points"></a>Discussion Points

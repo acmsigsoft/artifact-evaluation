@@ -26,7 +26,7 @@ The following instructions are typically provided to all authors of artifacts at
 	* Ideally, software artifacts will be contained within a VM, which contains all of the artifact’s dependencies, reducing the likelihood that the artifact decays over time.
 	* Take caution with using docker images: Typically the goal with a docker container is to distribute a base container and then a script to install dependencies in that container. While this reduces the size of the artifact, it increases reliance on external systems, and hence, the artifact may stop working eventually. When using a docker container, be sure that what you distribute is fully self-contained.
 	* Non-software artifacts (e.g. datasets) should be distributed as a single archive (no need for a VM)
-* Artifacts must be identifiable, immutable, and long-term avalilable [https://doi.org/10.5281/zenodo.7296608].
+* Artifacts must be identifiable, immutable, and long-term available [https://doi.org/10.5281/zenodo.7296608].
     * DOIs are the industry standard to identify literature.  Artifacts can be published (and referenced) in the ACM DL only using DOIs.
     * Artifacts must not be referred to in software repositories, user home pages, or user storage, which can be deleted or changed at any time at the user's disposition.
     * Digital libraries (Zenodo, FigShare, ACM DL) are among the most reliable archives for artifacts [https://doi.org/10.1145/3540250.3549172].
